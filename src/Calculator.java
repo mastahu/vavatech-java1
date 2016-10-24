@@ -18,6 +18,7 @@ public class Calculator {
         testuj(3, "/", 2, 1);
         testuj(3, "%", 2, 1);
         testuj(11, "%", 5, 1);
+        testuj(20, "%", 5, 0);
     }
 
     private static void testuj(int liczba1, String operacja, int liczba2, int spodziewanyWynik) {
